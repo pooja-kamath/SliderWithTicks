@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="SliderWithTicks.AboutPage" xmlns:cs="clr-namespace:SliderWithTicks.ViewModels"
+    xmlns:cr="clr-namespace:SliderWithTicks" xmlns:vm="clr-namespace:SliderWithTicks;" Title="{Binding Title}">
+	<ContentPage.BindingContext>
+		<vm:AboutViewModel />
+	</ContentPage.BindingContext>
+	<StackLayout Orientation="Vertical">
+	<StackLayout BackgroundColor="{StaticResource Accent}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+			<StackLayout  Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+				<ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
+				 <Grid Padding="0,0,0,0" WidthRequest="365">
+                    <StackLayout WidthRequest ="364" x:Name="stack" ></StackLayout>
+                    <cr:CustomSlider x:Name="slider" WidthRequest ="364"/>
+                 </Grid> 
+				</ContentView>
+			</StackLayout>
+		</StackLayout>
+	<StackLayout Orientation="Horizontal">
+
+        <Button WidthRequest="100" HeightRequest="100" Text="+" BackgroundColor="Azure" Clicked="PlusButtonClicked"></Button>
+        <Button WidthRequest="100" HeightRequest="100" Text="-" BackgroundColor="Blue"  Clicked="MinusButtonClicked"></Button>
+
+</StackLayout>
+	</StackLayout>
+</ContentPage>

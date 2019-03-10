@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{817C99CD-AB59-4D26-9F30-9961EAA7C317}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/CustomSliderRenderer.cs">
+    <Files>
+      <File FileName="SliderWithTicks/Views/AboutPage.xaml" Line="27" Column="1" />
+      <File FileName="SliderWithTicks/Views/AboutPage.xaml.cs" Line="20" Column="20" />
+      <File FileName="iOS/CustomSliderRenderer.cs" Line="20" Column="14" />
+      <File FileName="SliderWithTicks/Views/CustomSlider.cs" Line="14" Column="1" />
+      <File FileName="iOS/obj/iPhoneSimulator/Debug/SliderWithTicks.iOS.Views.AboutPage.xaml.g.cs" Line="22" Column="39" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SliderWithTicks.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8FD15C36-EC0D-4571-ADCB-4C9E301120FC">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.SliderWithTicks.iOS>
+  <MultiItemStartupConfigurations />
+</Properties>
